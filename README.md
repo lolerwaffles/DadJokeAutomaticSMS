@@ -1,2 +1,2 @@
 # DadJokeAutomaticSMS
-Automatically Sends an SMS with a Dad Joke at a set interval
+![Ytho](https://lolerwaffles.github.io/ytho.jpg)
