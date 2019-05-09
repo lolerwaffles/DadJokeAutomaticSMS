@@ -26,10 +26,11 @@ def sendDadJoke():
 
 	print(message.sid)
 
-
+#Time to send SMS every day
 schedule.every().day.at("12:00").do(sendDadJoke)
 
 while True:
     schedule.run_pending()
     time.sleep(1)
+    #print a reminder that this is running, just as a visual aid
     print("DadJokeAutoSender is running")
